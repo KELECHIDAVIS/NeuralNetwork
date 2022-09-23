@@ -17,5 +17,9 @@ public :
 
     ~Layer(){}
 
-    
+    // feedsforward 
+    Matrix* calcOutputs(Matrix* input)    
+    {
+        // dot products of the weights + the biases 
+    }
 }; 
