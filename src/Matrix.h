@@ -10,6 +10,7 @@ class Matrix
     public: 
     unsigned rows, cols; 
     float** arr; 
+    Matrix(){}; 
     Matrix(unsigned row, unsigned cols )
     {
         rows = row; 
